@@ -1,0 +1,5 @@
+        |00| JMP primero
+primero |02| SET R0 , 0x00
+        |04| SET R1 , 0xFF
+        |06| MIX R0 , R1
+   halt |08| JMP halt
